@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minesweeper.MinesweeperController">
+
+    <top>
+        <HBox alignment="CENTER" spacing="20.0" style="-fx-padding: 10; -fx-background-color: #ddd;" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="statusLabel" text="Minesweeper" textFill="#333">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Label>
+                <Button mnemonicParsing="false" onAction="#resetGame" text="Reset Game" />
+            </children>
+        </HBox>
+    </top>
+
+    <center>
+        <GridPane fx:id="gridPane" alignment="CENTER" gridLinesVisible="true" style="-fx-padding: 10;" BorderPane.alignment="CENTER">
+        </GridPane>
+    </center>
+
+</BorderPane>
