@@ -6,7 +6,7 @@
 
 #  JavaFX Minesweeper
 
-A modern, graphical implementation of the classic **Minesweeper** game built using **Java**, **JavaFX**, and **Maven**.
+A graphical implementation of the classic **Minesweeper** game built using **Java**, **JavaFX**, and **Maven**.
 
 ##  Preview
 
@@ -71,7 +71,7 @@ The GUI of the game is handled in the `MinesweeperController` class. It has the 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/MukaramNadeem/minesweeper-java.git
-   cd minesweeper-javafx
+   cd minesweeper-java
    ```
 
 2. **Clean and compile using Maven:**
@@ -84,7 +84,7 @@ The GUI of the game is handled in the `MinesweeperController` class. It has the 
    mvn javafx:run
    ```
 
-*(Alternatively, if your IDE supports it, simply import the `pom.xml` as a Maven project and run `MinesweeperApp.java`!)*
+***(Alternatively,Use Intellij IDEA and create JavaFX project and simply import all the files into the project and run `MinesweeperApp.java`)***
 
 ---
 
