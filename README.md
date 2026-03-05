@@ -12,6 +12,9 @@ A graphical implementation of the classic **Minesweeper** game built using **Jav
 
 ![Minesweeper Gameplay](minesweeper-preview.png)
 ---
+##  Flowchat
+![Minesweeper Gameplay](minesweeper-flowchart.png)
+---
 
 ##  Features
 
